@@ -1,0 +1,40 @@
+<svg viewBox="0 0 320 210" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Misturador-decantador (1 estágio de cascata), símbolo estilo P&amp;ID">
+  <title>ME-101 — Misturador-decantador, 1 estágio de N (P&amp;ID)</title>
+  <defs>
+    <marker id="seta_md" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#374151" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <!-- misturador (mixer) -->
+  <circle cx="65" cy="30" r="15" fill="#E5E7EB" stroke="#374151" stroke-width="1.5"/>
+  <text x="65" y="30" text-anchor="middle" dominant-baseline="central" font-size="13" font-weight="700" fill="#374151">M</text>
+  <rect x="30" y="55" width="70" height="85" rx="10" fill="#F3F4F6" stroke="#374151" stroke-width="1.5"/>
+  <line x1="65" y1="45" x2="65" y2="122" stroke="#374151" stroke-width="2"/>
+  <line x1="50" y1="117" x2="80" y2="127" stroke="#374151" stroke-width="2" stroke-linecap="round"/>
+  <line x1="50" y1="127" x2="80" y2="117" stroke="#374151" stroke-width="2" stroke-linecap="round"/>
+  <rect x="38" y="95" width="54" height="35" fill="#FCD34D" opacity="0.7"/>
+  <line x1="20" y1="80" x2="30" y2="80" stroke="#374151" stroke-width="1.5" marker-end="url(#seta_md)"/>
+  <text x="65" y="155" text-anchor="middle" font-size="9" fill="#6B7280">misturador</text>
+
+  <!-- linha da emulsao pro decantador -->
+  <line x1="100" y1="97" x2="150" y2="97" stroke="#374151" stroke-width="1.75" marker-end="url(#seta_md)"/>
+
+  <!-- decantador (settler) horizontal -->
+  <ellipse cx="160" cy="97" rx="10" ry="32" fill="#F3F4F6" stroke="#374151" stroke-width="1.5"/>
+  <rect x="160" y="65" width="120" height="64" fill="#F3F4F6" stroke="#374151" stroke-width="1.5"/>
+  <ellipse cx="280" cy="97" rx="10" ry="32" fill="#F3F4F6" stroke="#374151" stroke-width="1.5"/>
+  <line x1="160" y1="65" x2="280" y2="65" stroke="#374151" stroke-width="1.5"/>
+  <line x1="160" y1="129" x2="280" y2="129" stroke="#374151" stroke-width="1.5"/>
+  <!-- fase leve (extrato) -->
+  <path d="M 166 68 L 274 68 L 274 96 L 166 96 Z" fill="#FDE68A" opacity="0.85"/>
+  <!-- fase pesada (refinado) -->
+  <path d="M 166 96 L 274 96 L 274 126 L 166 126 Z" fill="#93C5FD" opacity="0.85"/>
+  <line x1="270" y1="68" x2="300" y2="50" stroke="#374151" stroke-width="1.5" marker-end="url(#seta_md)"/>
+  <line x1="270" y1="126" x2="300" y2="145" stroke="#374151" stroke-width="1.5" marker-end="url(#seta_md)"/>
+  <text x="298" y="45" text-anchor="end" font-size="8" fill="#6B7280">extrato</text>
+  <text x="298" y="155" text-anchor="end" font-size="8" fill="#6B7280">refinado</text>
+  <text x="220" y="155" text-anchor="middle" font-size="9" fill="#6B7280">decantador</text>
+
+  <text x="160" y="190" text-anchor="middle" font-size="12" font-weight="700" fill="#374151">ME-101</text>
+  <text x="160" y="203" text-anchor="middle" font-size="9" fill="#6B7280">1 estágio de N (cascata)</text>
+</svg>

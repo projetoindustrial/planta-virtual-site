@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Planta Virtual</title>
+<meta name="description" content="Simulação de plantas de processo como um grafo de equipamentos: 30 motores de simulação que se conectam. Ferramenta de estudo em desenvolvimento.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Planta Virtual">
+<meta property="og:description" content="Simulação de plantas de processo como um grafo de equipamentos.">
+<meta property="og:url" content="https://projetoindustrial.github.io/planta-virtual-site/">
+<meta property="og:image" content="https://projetoindustrial.github.io/planta-virtual-site/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#12355b">
+<link rel="icon" href="./favicon.svg" type="image/svg+xml">
+<style>
+:root{--bg:#f6f8fb;--card:#fff;--tx:#14202e;--mut:#51606f;--bd:#d9e1ea;--ac:#12355b;--hl:#b87c00}
+:root[data-theme="dark"]{--bg:#0f1720;--card:#17222e;--tx:#e8eef5;--mut:#9fb0c1;--bd:#2a3a4a;--ac:#8fc0f0;--hl:#f2a900;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.w{max-width:900px;margin:0 auto;padding:20px 16px 48px}
+.top{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+.top a.h{font-size:.85rem;color:var(--ac);text-decoration:none}
+h1{font-size:clamp(1.8rem,6vw,2.5rem);margin:6px 0 4px;color:var(--ac)}
+h2{font-size:1.2rem;margin:28px 0 8px;color:var(--ac)}
+.lead{color:var(--mut);margin:0 0 8px;font-size:1.05rem}
+p{margin:0 0 12px}
+button{font:inherit;font-size:.85rem;color:var(--tx);background:var(--card);border:1px solid var(--bd);border-radius:999px;padding:8px 14px;cursor:pointer;white-space:nowrap}
+.n{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:14px 0}
+.n div{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:12px}
+.n b{display:block;font-size:1.5rem;color:var(--hl)}
+.n span{color:var(--mut);font-size:.88rem}
+.g{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
+a.f{display:block;background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:8px;text-decoration:none;color:var(--mut);font-size:.82rem;text-align:center}
+a.f img{display:block;width:100%;height:140px;object-fit:contain;background:#fff;border-radius:8px;margin-bottom:6px}
+a.f:hover,a.f:focus-visible{border-color:var(--ac);outline:2px solid var(--ac);outline-offset:1px}
+.l a{color:var(--ac)}
+footer{margin-top:30px;padding-top:14px;border-top:1px solid var(--bd);color:var(--mut);font-size:.85rem}
+</style>
+</head>
+<body>
+<main class="w">
+<div class="top"><div><a class="h" href="https://projetoindustrial.github.io/">← Projeto Industrial</a><h1>Planta Virtual</h1></div><button id="tema" type="button" aria-label="Alternar tema claro e escuro">Tema escuro</button></div>
+<p class="lead">Simulação de plantas de processo como um grafo de equipamentos conectados.</p>
+<h2>O que é</h2>
+<p>Um conjunto de motores de simulação, um para cada tipo de equipamento (reatores, trocadores de calor, separadores, compressores, bombas e outros), que se conectam entre si para formar uma planta. Cada motor foi construído a partir de correlações e modelos publicados, e o conjunto tem uma suíte de testes automatizados que cresce junto com o código.</p>
+<p>É uma ferramenta de estudo e dimensionamento. Não é um gêmeo digital ligado a sensores reais nem um produto comercial.</p>
+<div class="n"><div><b>30</b><span>motores de simulação</span></div><div><b>1.000+</b><span>testes automatizados</span></div><div><b>14</b><span>diagramas de equipamentos abaixo</span></div></div>
+<h2>Equipamentos</h2>
+<p>Os diagramas que o editor usa para representar os equipamentos. Toque em um para ampliar.</p>
+<div class="g">
+<a class="f" href="img/celula_eletroquimica.svg" target="_blank" rel="noopener"><img src="img/celula_eletroquimica.svg" alt="Diagrama: Célula eletroquímica" loading="lazy"><span>Célula eletroquímica</span></a>
+<a class="f" href="img/ciclo_refrigeracao.svg" target="_blank" rel="noopener"><img src="img/ciclo_refrigeracao.svg" alt="Diagrama: Ciclo de refrigeração" loading="lazy"><span>Ciclo de refrigeração</span></a>
+<a class="f" href="img/ciclone.svg" target="_blank" rel="noopener"><img src="img/ciclone.svg" alt="Diagrama: Ciclone" loading="lazy"><span>Ciclone</span></a>
+<a class="f" href="img/coluna_leito.svg" target="_blank" rel="noopener"><img src="img/coluna_leito.svg" alt="Diagrama: Coluna de leito" loading="lazy"><span>Coluna de leito</span></a>
+<a class="f" href="img/compressor_tubulacao.svg" target="_blank" rel="noopener"><img src="img/compressor_tubulacao.svg" alt="Diagrama: Compressor e tubulação" loading="lazy"><span>Compressor e tubulação</span></a>
+<a class="f" href="img/maquina_alternativa.svg" target="_blank" rel="noopener"><img src="img/maquina_alternativa.svg" alt="Diagrama: Máquina alternativa (bomba ou compressor)" loading="lazy"><span>Máquina alternativa (bomba ou compressor)</span></a>
+<a class="f" href="img/misturador_decantador.svg" target="_blank" rel="noopener"><img src="img/misturador_decantador.svg" alt="Diagrama: Misturador-decantador" loading="lazy"><span>Misturador-decantador</span></a>
+<a class="f" href="img/reator_equilibrio.svg" target="_blank" rel="noopener"><img src="img/reator_equilibrio.svg" alt="Diagrama: Reator de equilíbrio" loading="lazy"><span>Reator de equilíbrio</span></a>
+<a class="f" href="img/secador_batelada.svg" target="_blank" rel="noopener"><img src="img/secador_batelada.svg" alt="Diagrama: Secador em batelada" loading="lazy"><span>Secador em batelada</span></a>
+<a class="f" href="img/tanque_agitado.svg" target="_blank" rel="noopener"><img src="img/tanque_agitado.svg" alt="Diagrama: Tanque agitado" loading="lazy"><span>Tanque agitado</span></a>
+<a class="f" href="img/trocador_casco_tubo.svg" target="_blank" rel="noopener"><img src="img/trocador_casco_tubo.svg" alt="Diagrama: Trocador casco e tubo" loading="lazy"><span>Trocador casco e tubo</span></a>
+<a class="f" href="img/turboexpansor.svg" target="_blank" rel="noopener"><img src="img/turboexpansor.svg" alt="Diagrama: Turboexpansor" loading="lazy"><span>Turboexpansor</span></a>
+<a class="f" href="img/vaso_separador_horizontal.svg" target="_blank" rel="noopener"><img src="img/vaso_separador_horizontal.svg" alt="Diagrama: Vaso separador horizontal" loading="lazy"><span>Vaso separador horizontal</span></a>
+<a class="f" href="img/vaso_separador_vertical.svg" target="_blank" rel="noopener"><img src="img/vaso_separador_vertical.svg" alt="Diagrama: Vaso separador vertical" loading="lazy"><span>Vaso separador vertical</span></a>
+</div>
+<h2 class="l">Experimente</h2>
+<p class="l">O <a href="https://projetoindustrial.github.io/editor-fluxograma/">Editor de Fluxograma</a> permite montar um fluxograma de processo no navegador e exportá-lo em JSON. Para cálculos de processo e hidráulica que funcionam offline, veja o <a href="https://projetoindustrial.github.io/caderno/">Caderno</a>.</p>
+<h2>Estado do projeto</h2>
+<p>Em desenvolvimento ativo. O código ainda não é público, e esta página apresenta o projeto sem publicar os motores.</p>
+<footer>Projeto independente, de uso didático. Os resultados dos modelos não substituem o projeto, a verificação e a responsabilidade técnica de profissional habilitado.</footer>
+</main>
+<script>
+(function(){
+var r=document.documentElement,b=document.getElementById("tema"),t="light";
+try{t=localStorage.getItem("tema")==="dark"?"dark":"light"}catch(e){}
+function ap(x){r.setAttribute("data-theme",x);b.textContent=x==="dark"?"Tema claro":"Tema escuro"}
+ap(t);b.addEventListener("click",function(){t=t==="dark"?"light":"dark";ap(t);try{localStorage.setItem("tema",t)}catch(e){}});
+})();
+</script>
+</body>
+</html>

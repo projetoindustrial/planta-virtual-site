@@ -1,0 +1,20 @@
+<svg viewBox="0 0 340 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Compressor seguido de tubulação de fase densa, símbolo estilo P&amp;ID">
+  <title>K-102 — Compressor + tubulação (CO2 fase densa) (P&amp;ID)</title>
+  <defs>
+    <marker id="seta_ct" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#374151" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <path d="M 70 55 L 140 40 L 140 130 L 70 115 Z" fill="#F3F4F6" stroke="#374151" stroke-width="1.5" stroke-linejoin="round"/>
+  <line x1="30" y1="85" x2="70" y2="85" stroke="#374151" stroke-width="1.75" marker-end="url(#seta_ct)"/>
+  <text x="30" y="70" font-size="8" fill="#6B7280">P1</text>
+  <line x1="140" y1="85" x2="180" y2="85" stroke="#374151" stroke-width="1.75" marker-end="url(#seta_ct)"/>
+  <text x="150" y="70" font-size="8" fill="#6B7280">P2</text>
+  <!-- tubulacao (fase densa) com indicacao de atrito -->
+  <line x1="180" y1="85" x2="300" y2="85" stroke="#374151" stroke-width="2"/>
+  <path d="M 195 78 L 205 92 L 215 78 L 225 92 L 235 78 L 245 92 L 255 78 L 265 92" fill="none" stroke="#9CA3AF" stroke-width="1"/>
+  <line x1="300" y1="85" x2="320" y2="85" stroke="#374151" stroke-width="1.75" marker-end="url(#seta_ct)"/>
+  <text x="240" y="65" text-anchor="middle" font-size="8" fill="#6B7280">L, ΔP (Darcy-Weisbach, ρ real)</text>
+  <text x="105" y="150" text-anchor="middle" font-size="12" font-weight="700" fill="#374151">K-102</text>
+  <text x="240" y="150" text-anchor="middle" font-size="9" fill="#6B7280">linha CO₂ fase densa</text>
+</svg>

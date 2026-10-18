@@ -1,0 +1,21 @@
+<svg viewBox="0 0 300 190" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bomba ou compressor alternativo (êmbolo/pistão), símbolo estilo P&amp;ID">
+  <title>M-101 — Máquina alternativa (êmbolo/pistão) (P&amp;ID)</title>
+  <defs>
+    <marker id="seta_m" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#374151" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <rect x="50" y="55" width="130" height="60" fill="#F3F4F6" stroke="#374151" stroke-width="1.5"/>
+  <rect x="95" y="60" width="16" height="50" fill="#9CA3AF" stroke="#374151" stroke-width="1"/>
+  <line x1="111" y1="85" x2="200" y2="85" stroke="#374151" stroke-width="2.5"/>
+  <circle cx="230" cy="85" r="30" fill="#E5E7EB" stroke="#374151" stroke-width="1.5"/>
+  <line x1="230" y1="85" x2="215" y2="65" stroke="#374151" stroke-width="2"/>
+  <circle cx="230" cy="85" r="3" fill="#374151"/>
+  <path d="M 55 60 L 68 70 L 55 80 Z" fill="none" stroke="#374151" stroke-width="1.25"/>
+  <path d="M 55 90 L 68 100 L 55 110 Z" fill="none" stroke="#374151" stroke-width="1.25"/>
+  <line x1="20" y1="70" x2="50" y2="70" stroke="#374151" stroke-width="1.75" marker-end="url(#seta_m)"/>
+  <line x1="50" y1="100" x2="20" y2="100" stroke="#374151" stroke-width="1.75" marker-end="url(#seta_m)"/>
+  <text x="140" y="140" text-anchor="middle" font-size="9" fill="#6B7280">bomba (líquido) ou compressor (gás)</text>
+  <text x="140" y="154" text-anchor="middle" font-size="9" fill="#6B7280">mesmo princípio: haste + êmbolo</text>
+  <text x="140" y="175" text-anchor="middle" font-size="12" font-weight="700" fill="#374151">M-101</text>
+</svg>

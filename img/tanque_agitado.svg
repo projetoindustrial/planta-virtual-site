@@ -1,0 +1,60 @@
+<svg viewBox="0 0 320 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Tanque agitado, símbolo estilo P&amp;ID (ISA S5.1 simplificado)">
+  <title>V-101 — Tanque agitado (P&amp;ID)</title>
+  <defs>
+    <marker id="seta" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#374151" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <!-- camisa termica (contorno externo, sem preenchimento -> a "folga" ate o vaso e a camisa) -->
+  <ellipse cx="160" cy="90" rx="63" ry="20" fill="none" stroke="#0F9488" stroke-width="1.25"/>
+  <rect x="97" y="90" width="126" height="190" fill="none" stroke="#0F9488" stroke-width="1.25"/>
+  <ellipse cx="160" cy="280" rx="63" ry="20" fill="none" stroke="#0F9488" stroke-width="1.25"/>
+
+  <!-- vaso: cabecas toriesfericas simplificadas + corpo -->
+  <ellipse cx="160" cy="90" rx="55" ry="16" fill="#F3F4F6" stroke="#374151" stroke-width="1.5"/>
+  <rect x="105" y="90" width="110" height="190" fill="#F3F4F6" stroke="#374151" stroke-width="1.5"/>
+  <ellipse cx="160" cy="280" rx="55" ry="16" fill="#F3F4F6" stroke="#374151" stroke-width="1.5"/>
+  <line x1="105" y1="90" x2="105" y2="280" stroke="#374151" stroke-width="1.5"/>
+  <line x1="215" y1="90" x2="215" y2="280" stroke="#374151" stroke-width="1.5"/>
+
+  <!-- nivel de liquido -->
+  <path d="M 112 190 L 208 190 L 208 271 A 55 13 0 0 1 112 271 Z" fill="#FCD34D" opacity="0.9"/>
+
+  <!-- chicanas (baffles), 2 visiveis em corte -->
+  <rect x="117" y="108" width="5" height="160" fill="#9CA3AF"/>
+  <rect x="198" y="108" width="5" height="160" fill="#9CA3AF"/>
+
+  <!-- motor (simbolo ISA: circulo com M) + eixo -->
+  <circle cx="160" cy="34" r="19" fill="#E5E7EB" stroke="#374151" stroke-width="1.5"/>
+  <text x="160" y="34" text-anchor="middle" dominant-baseline="central" font-size="16" font-weight="700" fill="#374151">M</text>
+  <line x1="160" y1="53" x2="160" y2="248" stroke="#374151" stroke-width="2"/>
+
+  <!-- impelidor tipo turbina (pas em angulo) -->
+  <line x1="134" y1="238" x2="186" y2="256" stroke="#374151" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="134" y1="256" x2="186" y2="238" stroke="#374151" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="160" cy="247" r="4" fill="#374151"/>
+
+  <!-- bocal de alimentacao + valvula gaveta -->
+  <line x1="38" y1="140" x2="105" y2="140" stroke="#374151" stroke-width="1.75" marker-end="url(#seta)"/>
+  <path d="M 55 132 L 70 140 L 55 148 Z M 85 132 L 70 140 L 85 148 Z" fill="none" stroke="#374151" stroke-width="1.5" stroke-linejoin="round"/>
+
+  <!-- bocal de saida de produto -->
+  <line x1="215" y1="255" x2="282" y2="255" stroke="#374151" stroke-width="1.75" marker-end="url(#seta)"/>
+
+  <!-- instrumento LI (indicador de nivel, montagem local -> bolha simples) -->
+  <line x1="215" y1="175" x2="240" y2="150" stroke="#6B7280" stroke-width="1"/>
+  <circle cx="254" cy="140" r="17" fill="#FFFFFF" stroke="#374151" stroke-width="1.25"/>
+  <text x="254" y="136" text-anchor="middle" dominant-baseline="central" font-size="10" font-weight="600" fill="#374151">LI</text>
+  <text x="254" y="148" text-anchor="middle" dominant-baseline="central" font-size="8" fill="#6B7280">101</text>
+
+  <!-- instrumento TI (indicador de temperatura, montagem local) -->
+  <line x1="215" y1="215" x2="240" y2="222" stroke="#6B7280" stroke-width="1"/>
+  <circle cx="254" cy="228" r="17" fill="#FFFFFF" stroke="#374151" stroke-width="1.25"/>
+  <text x="254" y="224" text-anchor="middle" dominant-baseline="central" font-size="10" font-weight="600" fill="#374151">TI</text>
+  <text x="254" y="236" text-anchor="middle" dominant-baseline="central" font-size="8" fill="#6B7280">102</text>
+
+  <!-- tag do equipamento -->
+  <text x="160" y="308" text-anchor="middle" font-size="12" font-weight="700" fill="#374151">V-101</text>
+  <text x="160" y="322" text-anchor="middle" font-size="9" fill="#6B7280">Tanque agitado</text>
+</svg>

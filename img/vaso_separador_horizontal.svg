@@ -1,0 +1,24 @@
+<svg viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Vaso KO/seal drum horizontal, símbolo estilo P&amp;ID">
+  <title>V-202 — Vaso horizontal (KO/seal drum) (P&amp;ID)</title>
+  <defs>
+    <marker id="seta_h" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#374151" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <ellipse cx="70" cy="110" rx="16" ry="46" fill="#F3F4F6" stroke="#374151" stroke-width="1.5"/>
+  <rect x="70" y="64" width="180" height="92" fill="#F3F4F6" stroke="#374151" stroke-width="1.5"/>
+  <ellipse cx="250" cy="110" rx="16" ry="46" fill="#F3F4F6" stroke="#374151" stroke-width="1.5"/>
+  <line x1="70" y1="64" x2="250" y2="64" stroke="#374151" stroke-width="1.5"/>
+  <line x1="70" y1="156" x2="250" y2="156" stroke="#374151" stroke-width="1.5"/>
+  <!-- nivel de liquido -->
+  <path d="M 76 156 L 244 156 L 244 130 L 76 130 Z" fill="#93C5FD" opacity="0.85"/>
+  <!-- chicana de entrada -->
+  <line x1="118" y1="70" x2="118" y2="110" stroke="#9CA3AF" stroke-width="2"/>
+  <!-- alimentacao -->
+  <line x1="118" y1="30" x2="118" y2="64" stroke="#374151" stroke-width="1.75" marker-end="url(#seta_h)"/>
+  <!-- saida de gas -->
+  <line x1="200" y1="64" x2="200" y2="40" stroke="#374151" stroke-width="1.75" marker-end="url(#seta_h)"/>
+  <!-- saida de liquido -->
+  <line x1="180" y1="156" x2="180" y2="190" stroke="#374151" stroke-width="1.75" marker-end="url(#seta_h)"/>
+  <text x="160" y="200" text-anchor="middle" font-size="12" font-weight="700" fill="#374151">V-202</text>
+</svg>

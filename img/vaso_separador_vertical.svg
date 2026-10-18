@@ -1,0 +1,35 @@
+<svg viewBox="0 0 260 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Separador trifásico vertical, símbolo estilo P&amp;ID">
+  <title>V-201 — Separador trifásico vertical (P&amp;ID)</title>
+  <defs>
+    <marker id="seta_v" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#374151" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <ellipse cx="130" cy="55" rx="45" ry="14" fill="#F3F4F6" stroke="#374151" stroke-width="1.5"/>
+  <rect x="85" y="55" width="90" height="180" fill="#F3F4F6" stroke="#374151" stroke-width="1.5"/>
+  <ellipse cx="130" cy="235" rx="45" ry="14" fill="#F3F4F6" stroke="#374151" stroke-width="1.5"/>
+  <line x1="85" y1="55" x2="85" y2="235" stroke="#374151" stroke-width="1.5"/>
+  <line x1="175" y1="55" x2="175" y2="235" stroke="#374151" stroke-width="1.5"/>
+  <!-- separador de neblina (mesh pad) perto do topo -->
+  <rect x="95" y="70" width="70" height="12" fill="none" stroke="#9CA3AF" stroke-width="1"/>
+  <g stroke="#9CA3AF" stroke-width="0.75">
+    <line x1="98" y1="70" x2="106" y2="82"/><line x1="108" y1="70" x2="116" y2="82"/>
+    <line x1="118" y1="70" x2="126" y2="82"/><line x1="128" y1="70" x2="136" y2="82"/>
+    <line x1="138" y1="70" x2="146" y2="82"/><line x1="148" y1="70" x2="156" y2="82"/>
+  </g>
+  <!-- oleo (camada superior) -->
+  <rect x="90" y="150" width="80" height="35" fill="#FCD34D" opacity="0.85"/>
+  <!-- agua (camada inferior) -->
+  <rect x="90" y="185" width="80" height="42" fill="#93C5FD" opacity="0.85"/>
+  <!-- bota de agua -->
+  <rect x="110" y="235" width="40" height="35" fill="#F3F4F6" stroke="#374151" stroke-width="1.5"/>
+  <!-- alimentacao -->
+  <line x1="35" y1="120" x2="85" y2="120" stroke="#374151" stroke-width="1.75" marker-end="url(#seta_v)"/>
+  <!-- saida de gas (topo) -->
+  <line x1="130" y1="41" x2="130" y2="15" stroke="#374151" stroke-width="1.75" marker-end="url(#seta_v)"/>
+  <!-- saida de oleo -->
+  <line x1="175" y1="167" x2="215" y2="167" stroke="#374151" stroke-width="1.75" marker-end="url(#seta_v)"/>
+  <!-- saida de agua (pela bota) -->
+  <line x1="130" y1="270" x2="130" y2="300" stroke="#374151" stroke-width="1.75" marker-end="url(#seta_v)"/>
+  <text x="130" y="315" text-anchor="middle" font-size="12" font-weight="700" fill="#374151">V-201</text>
+</svg>
