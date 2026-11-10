@@ -1,0 +1,9 @@
+# Planta virtual
+
+> Planta petroquímica virtual simulada: unidades, equipamentos e cenários de falha para estudo.
+
+## Páginas
+- [Aplicação](https://projetoindustrial.github.io/planta-virtual-site/)
+
+## Aviso
+Ferramenta visual/interativa: o texto da página descreve o que ela faz; os resultados dependem de uso no navegador.
