@@ -1,9 +1,9 @@
 # Planta virtual
 
-> Planta petroquímica virtual simulada: unidades, equipamentos e cenários de falha para estudo.
+> Página de apresentação do projeto Planta Virtual: simulação de plantas de processo como um grafo de equipamentos conectados. Mostra os diagramas de equipamentos e leva ao Editor de Fluxograma e ao Caderno.
 
 ## Páginas
 - [Aplicação](https://projetoindustrial.github.io/planta-virtual-site/)
 
 ## Aviso
-Ferramenta visual/interativa: o texto da página descreve o que ela faz; os resultados dependem de uso no navegador.
+O código dos motores de simulação não é publicado nesta página. Ferramenta de estudo, de uso didático. Ferramenta visual/interativa: o texto da página descreve o que ela faz; os resultados dependem de uso no navegador.
