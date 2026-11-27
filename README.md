@@ -5,5 +5,6 @@ Página de apresentação do projeto Planta Virtual: simulação de plantas de p
 **Acesse:** https://projetoindustrial.github.io/planta-virtual-site/
 
 - Mostra os diagramas de equipamentos usados pelo projeto e leva ao Editor de Fluxograma e ao Caderno.
+- Escopo: esta página apresenta o projeto de simulação. Para montar e exportar um fluxograma, use a ferramenta separada [Editor de Fluxograma](https://projetoindustrial.github.io/editor-fluxograma/).
 - Não publica o código dos motores de simulação.
 - Ferramenta de estudo, de uso didático. Projeto independente.
